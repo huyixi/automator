@@ -1,7 +1,9 @@
 #!/bin/bash
 src="$HOME/Desktop/clip"
-dest="$HOME/i/wiki/docs/clip"
-today=$(date +%Y-%m-%d)
+dest="$HOME/i/huyixi.wiki/docs/clip"
 
-# 查找并复制今天的文件
-find "$src" -type f -newermt "$today" ! -newermt "$today + 1 day" -exec cp {} "$dest" \;
+# Copy all files from source to destination
+cp -r "$src"/* "$dest"
+
+# Delete all files from source
+rm -r "$src"/*
