@@ -1,0 +1,4 @@
+0 11/17/22 * * * /Users/huyixi/i/Automator/backup-dotfiles.sh
+0 11/17/22 * * * /Users/huyixi/i/Automator/push-wiki.sh
+0 11/17/22 * * * /Users/huyixi/i/Automator/push-draft.sh
+0 11/17/22 * * * /Users/huyixi/i/Automator/push-helloworld.sh
