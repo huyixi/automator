@@ -1,13 +1,25 @@
-*.DS_Store  
-node_modules 
-*.log 
-idea/ 
-*.local 
-.DS_Store 
-dist 
-.cache 
-.idea 
-logs 
-*-debug.log 
-*-error.log 
+*.DS_Store
+node_modules
+*.log
+idea/
+*.local
+.DS_Store
+dist
+.cache
+.idea
+logs
+*-debug.log
+*-error.log
 *__pycache__/
+
+# Ignore Python virtual environment
+venv/
+env/
+
+# Ignore sensitive files
+*.env
+config.json
+credentials.txt
+
+# Ignore any files containing secrets or personal data
+secret_key.txt
