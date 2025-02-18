@@ -1,0 +1,5 @@
+0 11/17/22 * * * /Users/huyixi/i/Automator/backup-dotfiles.sh
+0 11/17/22 * * * /Users/huyixi/i/Automator/push-wiki.sh
+0 11/17/22 * * * /Users/huyixi/i/Automator/push-draft.sh
+0 11/17/22 * * * /Users/huyixi/i/Automator/push-helloworld.sh
+0 0 * * 5 /opt/homebrew/Caskroom/miniconda/base/bin/conda run -n lab /Users/huyixi/i/Automator/mastodon-spider.py
