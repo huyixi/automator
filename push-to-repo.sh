@@ -4,7 +4,6 @@ repos=(
     "$HOME/i/blog"
     "$HOME/i/weekly"
     "$HOME/i/huyixi.wiki"
-    "$HOME/i/draft"
     "$HOME/i/hello-world"
     "$HOME/i/software-engineer-interview-guide"
 )
@@ -22,4 +21,4 @@ for repo in "${repos[@]}"; do
     echo "------------------------"
 done
 
-echo "All repositories processed."
+echo "Running push-to-repo.sh at $(date)" >> /Users/huyixi/i/Automator/push-to-repo.log
