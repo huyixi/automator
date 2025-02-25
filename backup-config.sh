@@ -4,5 +4,5 @@ yazi="$HOME/.config/yazi/"
 dest="$HOME/i/config"
 yazi_dest="$HOME/i/config/yazi/"
 
-cp "$zshrc" "$dest"
-cp -r "$yazi" "$yazi_dest"
+[ -f "$zshrc" ] && cp "$zshrc" "$dest"
+[ -d "$yazi" ] && cp -r "$yazi" "$yazi_dest"
